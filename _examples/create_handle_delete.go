@@ -9,11 +9,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/a8m/lease"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/sirupsen/logrus"
 )
 
 // Task status

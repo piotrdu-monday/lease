@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/jpillora/backoff"
+	"github.com/sirupsen/logrus"
 )
 
 // Clientface is a thin methods set of DynamoDB.
